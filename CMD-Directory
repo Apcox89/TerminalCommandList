@@ -1,0 +1,100 @@
+Command Directory Stuff: 
+(Notes from Zed Shaw's LCTHW Appendix A: Command Line Crash Course)
+
+1. See git repository or local file TerminalCommandList
+
+2. Paths, Folders, Directories (pwd) - working with PWD Commands:
+
+pwd directory:
+
+/Users/lildrummerboi89
+
+3. If you get lost: (or to reference home directory)
+
+type: pwd or cd ~
+
+4. Make a directory (mkdir)
+
+type: mkdir (name)
+- you can add to (name) another on next line with a slash / then (name2)
+type: mkdir (name)/(name2)
+
+ for creating a new directory(folder) using the mkdir command
+ - basically what is the ouput destination of your commanding
+
+ "What does it mean to make a directory? You might call directories "folders." They're the same thing. All you did above is create directories inside directories inside of more directories. This is called a "path" and it's a way of saying "first temp, then stuff, then things and that's where I want it." It's a set of directions to the computer of where you want to put something in the tree of folders (directories) that make up your computer's hard disk.""
+
+ 5. Change Directory (cd)
+
+ type: cd .. (try typing that once you're in a directory to back track to the previous directory)
+
+ type this to get out of a current directory and back to home directory or default on your mac: 
+ lildrummerboi89$
+
+ 6. List Directory (ls)
+ - your >location< will be before your local host name , ie (>location< lildrummerboi89$)
+
+ try typing: ls-lr will show you what's within the location you have chosen
+
+ 7. Remove Directory (rmdir)
+
+ Note: If you try to do rmdir on macOS and it refuses to remove the directory even though you are positive it's empty, then there is actually a file in there called .DS_Store. In that case, type:
+  rm -rf <dir> instead (replace <dir> with the directory name).
+
+
+8. Moving Around (pushd, popd)
+- move the location of a file within the memory storage of the computer
+
+9. Making Empty Files (Touch on Mac, New-Item on Windows):
+
+first command: touch testing.txt
+second command: ls testing.txt
+returns:
+testing.txt
+
+10. Copy a file (cp)
+
+type: cp (filename)
+
+or cp - r (to move directories with files in them v empty files with just cp)
+
+Note: a / slash at the end of a directory will make sure the file is a directory or we get an error
+
+11. Move a file (mv)
+
+type: mv (filename)
+
+This function serves similar to save as, you have a copy of the og save, then you get another save in that directory.
+Rather though it moves the file to a new directory, and then you can recall that file from the new directory, or put it into another directory from the new directory, or even recall the new directory to the original directory.
+
+
+12. View a file (less, MORE)
+
+type: less (filename)
+
+To see the file displayed in terminal
+
+13. Stream a file (cat)
+
+type: less (filename)
+type: cat (filename)
+
+puts output all at once instead of compiling line by line
+
+14. Removing a file (rm)
+
+rm (filename)
+
+Will take a file out, rather than removing a directory where a file could be stored
+
+15. Exiting the terminal
+
+type: exit
+
+
+
+
+
+
+
+
